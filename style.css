@@ -1,0 +1,169 @@
+.header
+{
+	float:left;
+	margin-top: -120px;
+	margin-left:-5px;
+	padding: 0px;
+	border: 0px;
+	width:105%;
+	background:gray;
+}
+.header-navigater
+{
+	float:left;
+	height:200px;
+	margin:0px;
+	padding:0px;
+	border:0px;
+	grid-template-columns: 0px auto;
+	display:grid;
+}
+.cover
+{
+	width: 90%;
+	height: 900px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin-top: 0px;
+	margin-left: 61px;
+	margin-right:0px;
+}
+.cover-header
+{
+	font-size:90px;
+	margin:0px;
+	border:0px;
+	padding:0px;
+	list-style-type:none;
+}
+ul button
+{
+	height:40px;
+	width:120px;
+	background-color:darkcyan;
+	float:left;
+	color:rgb(80, 22, 22);
+}
+ul
+{
+	margin-top:20px;
+	margin-right:0px;
+	border:0px;
+	padding:0px;
+	list-style-type:none;
+	width:60%;
+	margin-left:0px;
+	float:left;
+	font-style:arial;
+	color: darkseagreen;
+	
+}
+li
+{
+	margin-right:0px;
+	float:right;
+	padding:0px;
+	height:0px;
+	width:100px;
+	font-size:15px;
+}
+.card-1
+{
+	box-shadow:0 4px 8px 0 rgba(0,0,0,0.5);
+	transition:0.4s;
+	width:92% -10px;
+	height:500px;
+	float:left;
+}
+.cardimg1
+{
+	float:left;
+	padding:0px;
+	object-position: top;
+}
+.cardimg2
+{
+	width: 24%;
+	float: left;
+	padding-right: 0px;
+	padding-left: 0px;
+	transition: transform 1s;
+	box-sizing:border-box;
+}
+.cardimg2:hover 
+{
+  	-ms-transform: scale(0.5); 
+  	-webkit-transform: scale(0.5);
+  	transform: scale(1.1); 
+  	box-sizing:border-box;
+
+}
+.cardimg2 p
+{
+	text-align: center;
+	font-weight: bold;
+}
+.cardimg3
+{
+	width: 24%;
+	float: left;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.cardimg3 p
+{
+	text-align: center;
+	font-weight: bold;
+}
+.blog-body
+{
+	justify-content: center;
+	align-items: center;
+	width:94%; 
+	height:30px;
+	float:left;
+	position:absulte;
+}	
+.body1row,.body2row,.body3row
+{
+	box-shadow:0 4px 8px 0 rgba(99, 32, 32, 0.9);
+	height:500px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	display:flex;
+	margin-left: 11%;
+	margin-right: 20%;
+
+}
+.body1rowimg,.body2rowimg,.body3rowimg
+{
+	width: 596px;
+	height: 200px;
+}
+.footer-top
+{
+	height:300px;
+	width:100%;
+	background:34495e;
+	padding:0px;
+	border:0px;
+	margin-bottom: -21px;
+	margin-top:700px;
+	align-items: center;
+	justify-content: center;
+
+}
+.footer-bottom
+{
+	height:300px;
+	width:100%;
+	background-color:263238;
+	padding:0px;
+	border:0px;
+	margin-top: 0px;
+	align-items: center;
+	justify-content: center;
+
+}
+
